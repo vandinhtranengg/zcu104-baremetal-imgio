@@ -54,11 +54,11 @@ static bool sd_read_all(const char* path, vector<uint8_t>& out)
     rc = f_read(&file, out.data(), fsize, &br);
     f_close(&file);
 
-    xil_printf("Read %u bytes\r\n", br);            // Optional: confirm
-    if (rc != FR_OK || br != fsize) {
-        xil_printf("f_read failed rc=%d br=%u size=%u\r\n", rc, br, fsize);
-        return false;
-    }
+    // xil_printf("Read %u bytes\r\n", br);            // Optional: confirm
+    // if (rc != FR_OK || br != fsize) {
+    //     xil_printf("f_read failed rc=%d br=%u size=%u\r\n", rc, br, fsize);
+    //     return false;
+    // }
     return true;
 }
 
