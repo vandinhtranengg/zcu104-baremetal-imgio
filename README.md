@@ -36,7 +36,7 @@ Tested with **Vivado/Vitis 2022.1** on Zynq UltraScale+ MPSoC (ZCU104).
 ## Quick start (Vitis Classic IDE)
 
 1. **Create hardware (XSA)**
-   - In Vivado: add Zynq MPSoC, apply **ZCU104 preset**; enable **PS DDR**, **UART**, **SD**.
+   - In Vivado: add Zynq MPSoC, apply **ZCU104 preset**  (enable **PS DDR**, **UART**, **SD**)
    - Generate wrapper, validate, export **XSA** (post‑implementation is safest).
 
 2. **Create platform (standalone A53)**
@@ -64,7 +64,7 @@ Tested with **Vivado/Vitis 2022.1** on Zynq UltraScale+ MPSoC (ZCU104).
      SD mounted: 0:/
      File size: 120054 bytes
      Loaded BMP: 224x224, 3 channels
-     Top-left pixel RGB = (r,g,b)
+     Top-left pixel RGB = (255,0,0)
      Done.
      ```
 
