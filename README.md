@@ -5,7 +5,6 @@ A minimal **bare‑metal C++** starter for **AMD Xilinx ZCU104** that:
 - mounts the **SD** card (FatFs / `xilffs`),
 - loads a **24‑bit BMP** image,
 - prints basic info (and sample pixel data),
-- is structured to evolve toward **PL CNN acceleration** via **AXI DMA + Vitis HLS**.
 
 Tested with **Vivado/Vitis 2022.1** on Zynq UltraScale+ MPSoC (ZCU104).
 
@@ -17,7 +16,6 @@ Tested with **Vivado/Vitis 2022.1** on Zynq UltraScale+ MPSoC (ZCU104).
 - ✅ **FatFs (xilffs)** SD file I/O  
 - ✅ 24‑bit BMP loader (uncompressed, BI_RGB), with **row streaming** option  
 - ✅ UART logs (115200 8N1)  
-- 🔜 AXI DMA + **HLS CNN operator** (DepthwiseConv3×3) example
 
 ---
 
@@ -25,7 +23,7 @@ Tested with **Vivado/Vitis 2022.1** on Zynq UltraScale+ MPSoC (ZCU104).
 
 - **Vivado 2022.1** and **Vitis 2022.1** (same version)
 - ZCU104 board powered and connected via **USB‑UART** + **JTAG**
-- A microSD card (FAT/FAT32) with `test.bmp` (24‑bit, uncompressed) in the root
+- A microSD card (FAT/FAT32) with `test.bmp` (24‑bit, uncompressed) in the root(0:/)
 - Board **boot mode** set appropriately for your workflow (JTAG run for development)
 
 > **Docs you’ll use often**  
