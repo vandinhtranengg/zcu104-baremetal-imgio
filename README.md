@@ -63,7 +63,7 @@ Tested with **Vivado/Vitis 2022.1** on Zynq UltraScale+ MPSoC (ZCU104).
      SD BMP Loader (bare-metal)
      SD mounted: 0:/
      File size: 120054 bytes
-     Loaded BMP: 224x224, 3 channels
+     Loaded BMP: 200x200, 3 channels
      Top-left pixel RGB = (255,0,0)
      Done.
      ```
